@@ -13,18 +13,27 @@
 | X    |      |      |         |                         |
 # Measured Values
 - Camera, resolution: Logitech C720 "Webcam 1", 640x480
-- Camera height (in), pitch (deg), offset from robot center (X/Y) in: 
+- Camera height (in), pitch (deg), offset from robot center (X/Y) in: h: 12.5in, THE*, 9inY, .625inX, 
 - Horizontal FOV (deg), fx (pixels):
 - Tag detection range with 4/2/1 3.6in tags (in):
 - Motor Determinations
 | Name  | ID  | Type               |
 |-------|-----|--------------------|
-| RF    | 0   | Rev 20:1 Hex       |
-| RB    | 1   |                    |
+| FR    | 0   | Rev 20:1 Hex       |
+| BR    | 1   |                    |
 | Claw  | 2   | Rev Core Hex       |
 | Elev. | 3   | Rev UltraPlan  Hex |
-| LF    | EH0 | Rev 20:1 Hex       |
-| LB    | EH1 | Rev 20:1 Hex       |
+| FL    | EH0 | Rev 20:1 Hex       |
+| BL    | EH1 | Rev 20:1 Hex       |
+REVERSED MOTORS (flat front) -> FR = BL, FL=BR;
+| Name  | ID  | Type               |
+|-------|-----|--------------------|
+| BL    | 0   | Rev 20:1 Hex       |
+| FL    | 1   |                    |
+| Claw  | 2   | Rev Core Hex       |
+| Elev. | 3   | Rev UltraPlan  Hex |
+| BR    | EH0 | Rev 20:1 Hex       |
+| FR    | EH1 | Rev 20:1 Hex       |
 
 ## Problems and fixes
 - (date) problem --> fix 

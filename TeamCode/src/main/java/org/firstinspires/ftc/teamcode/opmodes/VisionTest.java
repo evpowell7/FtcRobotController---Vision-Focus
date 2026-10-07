@@ -18,7 +18,6 @@ public class VisionTest extends LinearOpMode {
         .setCameraResolution(new Size(VisionConstants.IMAGE_W, VisionConstants.IMAGE_H))
         .addProcessor(tags)
         .build();
-
         waitForStart();
         while (opModeIsActive()) {
             telemetry.addData("Camera", portal.getCameraState());

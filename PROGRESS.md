@@ -13,8 +13,8 @@
 | X    |      |      |         |                         |
 # Measured Values
 - Camera, resolution: Logitech C720 "Webcam 1", 640x480
-- Camera height (in), pitch (deg), offset from robot center (X/Y) in: h: 12.5in, THE*, 9inY, .625inX, 
-- Horizontal FOV (deg), fx (pixels):
+- Camera height (in), pitch (deg), offset from robot center (X/Y) in: h: 12.5in, angle32*, 9inY, .625inX, 
+- Horizontal FOV (deg), fx (pixels): HFOV-48.8*; fx-705px
 - Tag detection range with 4/2/1 3.6in tags (in):
 - Motor Determinations
 | Name  | ID  | Type               |

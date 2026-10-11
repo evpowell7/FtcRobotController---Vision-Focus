@@ -39,6 +39,7 @@ public class TagVision {
         portal = new VisionPortal.Builder()
                 .setCamera(hwm.get(WebcamName.class, VisionConstants.CAMERA_NAME))
                 .setCameraResolution(new Size(VisionConstants.IMAGE_W, VisionConstants.IMAGE_H))
+                .addProcessor(new FlipProcessor()) // remove when upright camera
                 .addProcessor(tags)
                 .build();
     }
